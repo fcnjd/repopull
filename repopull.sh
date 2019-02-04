@@ -9,4 +9,4 @@ do
     git pull >> "$LOGPATH" 2>&1;
     cd ..;
 done
-echo "all git repositories in this folder have been pulled. Please read the logfile located in $LOGPATH for more information.";
+echo "all git repositories in this folder have been pulled successfully. Please read the logfile located in $LOGPATH for more information.";
